@@ -33,19 +33,19 @@ This is a package for working with input Files in Python. This Package gets you 
 
 ### Windows:
 
-```
+```python3
 >>> pip install input-simple
 ```
 
 ### Mac/Linux:
 
-```
+```python3
 >>> sudo pip3 install input-simple
 ```
 
 ## Usage
 
-```
+```python3
 >>> import input_simple
 ```
 
