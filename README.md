@@ -34,7 +34,7 @@ This is a package for working with input Files in Python. This Package gets you 
 ### Windows:
 
 ```
->>> pip install input_simple
+>>> pip install input-simple
 ```
 
 ### Mac/Linux:
