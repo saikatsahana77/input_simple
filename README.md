@@ -57,7 +57,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```python
+   ```python3
    import input_simple
    k = input_simple.seperate_list("Saikat Sahana 1 2  2.56")
    print(k)
@@ -65,7 +65,7 @@ This will ensure that you have imported the module correctly.
 
    This takes the string and seperates it on the points where spaces are provided. It auto detects if a value is string or float or int and the output list that you get for that reflects that by converting it to the suitable datatype. You can also change the delimeter from "&nbsp; " to some other for that, you have to pass a extra delimeter.
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.seperate_list("Saikat Sahana 1 2  2.56",":")
    print(k)
@@ -77,7 +77,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.seperate_list_int("12 15 22 2.56")
    print(k)
@@ -89,7 +89,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.seperate_list_int("Saikat Sahana 12 22 2.56")
    print(k)
@@ -101,7 +101,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.text_to_inp("input.txt")
    print(k)
@@ -109,7 +109,7 @@ This will ensure that you have imported the module correctly.
 
    This method takes a text file(here we suppose the name of the text file as input, use your preffered name) and fetches its data of each line,converts it into a test case, and then goes through each line and breaks them into elements when it encounters "&nbsp; &nbsp; " as a delimeter for different elements and taking "&nbsp; " for seperating a string to array. In case your file contains a string element which contains more than one word then you are prompted in terminal that if you want to consider it as a string type "str"(without the qoutes) and for considering it as a array type "str-arr" (without qoutes). Also this method has two optional extra parameters, first one is the delimeter by which the elements are separated and second one by which the array is seperated if present.
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.text_to_inp("input.txt",":",",")
    print(k)
@@ -121,7 +121,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.csv_to_inp("input.csv")
    print(k)
@@ -133,7 +133,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.xls_to_inp("input.xlsx")
    print(k)
@@ -141,7 +141,7 @@ This will ensure that you have imported the module correctly.
 
    This method takes a xlsx file(here we suppose the name of the text file as input, use your preffered name) and fetches its data of each line,converts it into a test case, and then goes through each line and breaks them into elements when it encounters a cell in excel as a delimeter for different elements and taking "&nbsp; " for seperating a string to array. In case your file contains a string element which contains more than one word then you are prompted in terminal that if you want to consider it as a string type "str"(without the qoutes) and for considering it as a array type "str-arr" (without qoutes). it also has a optional parameter that replaces the "&nbsp; " delimeter to some other value for separating elements in an array.
 
-   ```
+   ```python3
    import input_simple
    k = input_simple.xls_to_inp("input.xlsx",":")
    print(k)
@@ -153,7 +153,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python3
    import input_simple
    k= input_simple.dummy_inp([['int',10,20],['str','[A-Za-z]{5}[0-9]{4}']])
    print(k)
