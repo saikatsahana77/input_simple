@@ -17,13 +17,13 @@ Navigate to your Preferred Section:
 
 ## Description
 
-This is a package for working with input Files in Python. This Package gets you Evrything your Require for working with input from simple task like generating a Integer Array from a Space seperated string to creating test inputs to check your program effectively. 
+This is a package for working with input Files in Python. This Package gets you Evrything your Require for working with input from simple task like generating a Integer Array from a Space seperated string to creating test inputs to check your program effectively.
 
 #### Technologies/Languages Used
 
 - Python
 
-[Back To The Top](#input-simple)
+[Back To The Top](#Input_simple)
 
 ---
 
@@ -151,23 +151,24 @@ This will ensure that you have imported the module correctly.
 
 7. dummy_inp
 
-    Usage:
+   Usage:
 
-    ```
-    import input_simple
-    k= input_simple.dummy_inp([['int',10,20],['str','[A-Za-z]{5}[0-9]{4}']])
-    print(k)
-    ```
-    This method creates a dummy input each time you call this method. This Method can be used for testing you program under different test cases for competetive coding. The format of using this method is using passing a [], inside which you make more [] and each of them corresponds to one element and their info. Different Values that can be passed are:
+   ```
+   import input_simple
+   k= input_simple.dummy_inp([['int',10,20],['str','[A-Za-z]{5}[0-9]{4}']])
+   print(k)
+   ```
 
-    - int - Format - ['int', lower_bound, upper_bound]
-    - float - Format - ['float', round_off_value, lower_bound, upper_bound]
-    - string - Format - ['str', regular_expression in qoutes]
-    - int-arr - Format - ['int-arr', no_of_elements, lower_bound, upper_bound]
-    - float-arr - Format - ['float-arr', no_of_elements, round_off_value, lower_bound, upper_bound]
-    - string-arr - Format - ['str-arr', no_of_elements, regular_expression in qoutes]
+   This method creates a dummy input each time you call this method. This Method can be used for testing you program under different test cases for competetive coding. The format of using this method is using passing a [], inside which you make more [] and each of them corresponds to one element and their info. Different Values that can be passed are:
 
-[Back To The Top](#input-simple)
+   - int - Format - ['int', lower_bound, upper_bound]
+   - float - Format - ['float', round_off_value, lower_bound, upper_bound]
+   - string - Format - ['str', regular_expression in qoutes]
+   - int-arr - Format - ['int-arr', no_of_elements, lower_bound, upper_bound]
+   - float-arr - Format - ['float-arr', no_of_elements, round_off_value, lower_bound, upper_bound]
+   - string-arr - Format - ['str-arr', no_of_elements, regular_expression in qoutes]
+
+[Back To The Top](#Input_simple)
 
 ---
 
@@ -195,7 +196,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#input-simple)
+[Back To The Top](#Input_simple)
 
 ---
 
@@ -209,5 +210,4 @@ SOFTWARE.
 - LinkedIn - [Saikat Sahana](https://www.linkedin.com/in/saikat-sahana-454608118)
 - Github - [saikatsahana77](https://github.com/saikatsahana77)
 
-[Back To The Top](#input-simple)
-
+[Back To The Top](#Input_simple)
