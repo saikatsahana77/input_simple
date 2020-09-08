@@ -57,7 +57,7 @@ This will ensure that you have imported the module correctly.
 
    Usage:
 
-   ```
+   ```python
    import input_simple
    k = input_simple.seperate_list("Saikat Sahana 1 2  2.56")
    print(k)
